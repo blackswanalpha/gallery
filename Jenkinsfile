@@ -40,7 +40,7 @@ pipeline {
             }
             post {
                 success {
-                    slackSend channel: '#YourFirstName_IP1', color: 'good', message: "Successfully deployed build ${env.BUILD_ID}. View it at: ${env.BUILD_URL}"
+                    slackSend channel: '#VICTOR_IP1', color: 'good', message: "Successfully deployed build ${env.BUILD_ID}. View it at: ${env.BUILD_URL}"
                 }
             }
         }
